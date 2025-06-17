@@ -1,0 +1,206 @@
+.Team_image {
+    /* about-us*/
+    display: grid;
+    grid-template-columns: repeat(4, 290px);
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#prashant {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: -40px;
+}
+#prashant:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+
+#prince {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 40px;
+}
+#prince:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+
+#pritika {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 100px;
+}
+#pritika:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+
+#prakriti {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 190px;
+}
+#prakriti:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+
+
+#team {
+    text-align: center;
+    border: 2px solid black;
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 80px;
+}
+
+#pras {
+    border: 2px solid black;
+    margin-left: 10px;
+    max-width: 250px;
+}
+
+#prin {
+    border: 2px solid black;
+    margin-left: 15px;
+    max-width: 250px;
+}
+
+#priti {
+    border: 2px solid black;
+    margin-left: 10px;
+    max-width: 250px;
+}
+
+#pra {
+    border: 2px solid black;
+    margin-left: 10px;
+    max-width: 250px;
+}
+
+#col {
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+    color: black;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(106, 101, 101);
+    box-shadow: 5px 8px 10px #0d0d0e;
+    margin-top: 50px;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+.abt {
+    color: black;
+    margin-left: 80px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.about-details {
+    max-width: 50%;
+}
+
+
+.text {
+    line-height: 30px;
+    margin: 50px 0 30px;
+    text-align: justify;
+    font-size: 25px;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*About*/
+@media (max-width: 768px) {
+    .Team_image {
+        grid-template-columns: repeat(2, 170px);
+        gap: 20px;
+    }
+
+    #prashant,
+    #prince,
+    #pritika,
+    #prakriti {
+        margin-left: 0;
+        margin-right: 0;
+        background-color: transparent;
+    }
+
+    #col {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #pras,
+    #prin,
+    #priti,
+    #pra {
+        width: 90%;
+        max-width: none;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .abt {
+        margin-left: 0;
+        margin-top: 30px;
+        font-size: 35px;
+    }
+
+
+    .text {
+        margin: 30px auto;
+        font-size: 18px;
+        text-align: center;
+    }
+}
