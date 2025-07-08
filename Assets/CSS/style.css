@@ -22,7 +22,7 @@ body {
   
     align-content: center;
     margin-right: 110px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .anchar {
@@ -42,8 +42,9 @@ body {
 
 
 #ar {
-    font-size: 22px;
+    font-size: 18px;
     margin: 0px 40px 0px 0px;
+    text-decoration: none;
 }
 
 .navrab {                             /*moved online shop*/
@@ -53,7 +54,7 @@ body {
 
 #ima{                                   /*logo*/
     margin: 8px 0px 5px 9px;
-    height: 90px;
+    height: 75px;
     border: 2px solid rgb(238, 192, 192);
 }
 
