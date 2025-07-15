@@ -7,54 +7,71 @@
     
                     
 #image1{
-    height:300px;
-    width: 320px;
+    height:200px;
+    width: 220px;
 }
 #image2{
-    height:300px;
-    width: 320px;
+    height:200px;
+    width: 220px;
 }
 #image3{
-    height:300px;
-    width: 320px;
+    height:200px;
+    width: 220px;
 }
 #image4{
-    height:300px;
-    width: 320px;
+    height:200px;
+    width: 220px;
 }
 #image5{
-    height:300px;
-    width: 320px;
+    height:200px;
+    width: 220px;
 }
 #image6{
-    height:300px;
-    width: 320px;
+    height:200px;
+    width: 220px;
     
 }
 #image7{
-    height:300px;
-    width: 320px;
+    height:200px;
+    width: 220px;
 }
 #image8{
-    height:300px;
-    width: 320px;
+    height:200px;
+    width: 220px;
 }
 #image9{
-    height: 300px;
-    width: 320px;
+    height: 200px;
+    width: 220px;
 }
 #image10{
-    height: 300px;
-    width: 320px;
+    height: 200px;
+    width: 220px;
 }
 #image11{
-    height: 300px;
-    width: 320px;
+    height: 200px;
+    width: 220px;
 }
 #image12{
-    height: 300px;
-    width: 320px;
+    height: 200px;
+    width: 220px;
 }
+#image13{
+    height: 200px;
+    width: 220px;
+}
+#image14{
+    height: 200px;
+    width: 220px;
+}
+#image15{
+    height: 200px;
+    width: 220px;
+}
+#image16{
+    height: 200px;
+    width: 220px;
+}
+
 
 #images{
     
@@ -78,7 +95,7 @@
     border: 1px solid black;
     width: 25%;
     background-color: rgb(145, 123, 150);
-    padding: 10px;
+    padding: 20 px;
     border-radius: 10;
 
 }
