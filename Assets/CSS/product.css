@@ -48,6 +48,12 @@
     color: white;
 }
 
+#search {
+    border: #0d0d0e;
+    border-radius: 40px;
+    margin-left: 150px;
+    padding: 6.5px;
+}
 
 
 

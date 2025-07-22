@@ -37,23 +37,7 @@
     <h2 id="log"><u>Login</u></h2>
 
 
-    <script type="text/javascript">
-        function valid() {
-            var a = document.getElementById("email").value;
-            var b = document.getElementById("pass").value;
-            if (a.trim() == "" || b.trim() == "") {
-                document.getElementById("n1").innerHTML = "**All fields are required**";
-                return false;
-            }
-            else if (!a.includes("@") || !b.includes(".com")) {
-                document.getElementById("n5").innerHTML = "**Invalid Email**";
-                return false;
-            }
-            else {
-                return true;
-            }
-        }
-    </script>
+    <script src="Assets/JS/login.js"> </script>
     <div id="form">
         <form onsubmit="return valid()">
             <span id="n1" style="color:red; font-size:12px;"></span><br>

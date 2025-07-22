@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    Gallery Page
+  </title>
+</head>
+
+<body>
+    <div id="listofproduct">
+<script>
+const ListOfProduct = [{
+    "name":"iphone",
+    "price":25,
+    "image":".png"
+},
+{
+    "name":"iphone",
+    "price":25,
+    "image":".png"
+},
+{
+    "name":"iphone",
+    "price":25,
+    "image":".png"
+},{
+    "name":"iphone",
+    "price":25,
+    "image":".png"
+},
+];
+ const productContainer = document.getElementById("listofproduct");
+  for(Let = 0; i<=ListOfProduct.length; i++){
+    productContainer.innerHTML +=`<div style="margin:5px; padding:10px; border:1px solid #ccc;">
+                    <strong>Name:</strong> ${ListOfProduct[i].name} <br>
+                    <strong>ID:</strong> ${ListOfProduct[i].price} <br>
+                    <strong>Image:</strong> ${ListOfProduct[i].image} <br>
+                 </div>`;
+
+
+  }
+
+</script>
+</div>
+ 
+
+
+
+
+
+  
+
+
+
+</body>
+
+</html>

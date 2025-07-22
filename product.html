@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <link rel="stylesheet" type="text/css" href="Assets/CSS/Style.css">
   <link rel="stylesheet" type="text/css" href="Assets/CSS/product.css">
@@ -10,6 +9,7 @@
 </head>
 
 <body>
+  <script src="Assets/JS/product.js"></script>
 
   <div class="navbar">
     <div class="navrab">
@@ -29,7 +29,7 @@
       <a href="gallery.html" id="ar">Gallery</a>
       <a href="sign-up.html" id="ar"> Sign-up</a>
       <a href="contact.html" id="ar">Contact </a>
-      <input type="text" id="search" placeholder="Search here..." onkeyup="searchItems()"  />
+      <input type="text" id="search" placeholder="Search here..." onkeyup="searchItems()" />
     </div>
   </div>
 
@@ -40,112 +40,34 @@
   </div>
 
   <ul id="itemsList" style="display: none;">
-  <li>Mobile</li>
-  <li>Mobile Cover</li>
-  <li>Shoes</li>
-  <li>Headphone</li>
-</ul>
-
-
-<script>
-function searchItems() {
-  const input = document.getElementById("search").value.toLowerCase();
-  const items = document.querySelectorAll("#items .item");
-
-  items.forEach(item => {
-    const text = item.innerText.toLowerCase();
-    item.style.display = text.includes(input) ? "block" : "none";
-  });
-}
-</script>
-
-
-
-  
+    <li>Mobile</li>
+    <li>Mobile Cover</li>
+    <li>Shoes</li>
+    <li>Headphone</li>
+  </ul>
 
 
 
 
+  <div id="items"></div>
+  <script src="Assets/JS/listofproduct.js"> </script>
 
-  <div id="items">
-    <div class="item">
-      <a href="prod1.html"><img src="Assets/Image/mobile.jpeg"></a>
-      <p>Redmi Note 11 <br> Price: 23,999 </p>
-    </div>
-
-    <div class="item">
-      <a href="prod2.html"><img src="Assets/Image/mobile2.jpg"></a>
-      <p>Redmi Note 14 Pro <br/> Price = 49,999 </p>
-    </div>
-
-    <div class="item">
-      <a href="prod3.html"><img src="Assets/Image/mobile3.jpg"></a>
-      <p>Redmi A3 <br/> Price = 12,999</p>
-    </div>
-
-    <div class="item">
-      <a href="prod4.html"><img src="Assets/Image/mb.jpeg"></a>
-      <p> Mobile Cover <br /> Price=399</p>
-    </div>
-
-    <div class="item">
-      <a href="prod5.html"><img src="Assets/Image/cover.jpg"></a>
-      <p> Mobile Cover <br /> Price=699</p>
-    </div>
-
-    <div class="item">
-      <a href="prod6.html"> <img src="Assets/Image/cover2.jpg"></a>
-      <p> Mobile Cover <br /> Price=499</p>
-    </div>
-
-    <div class="item">
-      <a href="prod7.html"> <img src="Assets/Image/sh.jpeg"></a>
-      <p> School shoes <br/> Price=1,899</p>
-    </div>
-
-    <div class="item">
-      <a href="prod8.html"> <img src="Assets/Image/shoes2.jpg"></a>
-      <p> Party shoes <br/> Price=2,499</p>
-    </div>
-
-    <div class="item">
-      <a href="prod9.html"> <img src="Assets/Image/shoes.jpg"></a>
-      <p> Stylis Shoes <br/> Price=1,999</p>
-    </div>
-
-    <div class="item">
-      <a href="prod10.html"> <img src="Assets/Image/HP2.jpeg"></a>
-      <p> Headphone <br /> Price=1,299</p>
-    </div>
-
-    <div class="item">
-      <a href="prod11.html"> <img src="Assets/Image/hp.jpeg"></a>
-      <p> Headphone <br /> Price=999</p>
-    </div>
-
-    
-    <div class="item">
-      <a href="prod12.html"> <img src="Assets/Image/HP.jpg"></a>
-      <p> Gaming Headphone <br /> Price=1,599</p>
-    </div>
-  </div>
-  
   <br><br>
 
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<div class="down"  style=" color: black; padding:40px; text-align:center;">
-  <hr>
-  <div class="social-icons">
-    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://wa.me/your_number" target="_blank"><i class="fab fa-whatsapp"></i></a>
-    <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
-  </div>
 
-  <p> &copy; 2025 Website. All rights reserved.&nbsp;&nbsp;|&nbsp;&nbsp;Privacy Policy</p>
-  <hr />
-</div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <div class="down" style=" color: black; padding:40px; text-align:center;">
+    <hr>
+    <div class="social-icons">
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://wa.me/your_number" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+    <p> &copy; 2025 Website. All rights reserved.&nbsp;&nbsp;|&nbsp;&nbsp;Privacy Policy</p>
+    <hr />
+  </div>
 
 </body>
 
