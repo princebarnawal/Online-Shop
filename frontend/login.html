@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../Assets/CSS/Style.css">
+    <link rel="stylesheet" type="text/css" href="../Assets/CSS/login.css">
+    <title>
+        Login Page
+    </title>
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <div class="navrab">
+            <img src="../Assets/Image/logo.png" alt="logo" id="ima" />
+        </div>
+
+        <div class="nav">
+            <a href="home.html" id="name" style="color: white;">
+                Online Shop
+            </a>
+        </div>
+
+        <div class="anchar">
+            <a href="home.html" id="ar">Home</a>
+            <a href="about-us.html" id="ar">About-us</a>
+            <a href="product.html" id="ar">Product</a>
+            <a href="gallery.html" id="ar">Gallery</a>
+            <a id="ar" style="color: red;">Login</a>
+            <a href="contact.html" id="ar">Contact </a>
+        </div>
+    </div>
+
+
+    <h2 id="log"><u>Login</u></h2>
+
+
+    <script src="../frontend/JS/login.js"> </script>
+    <div id="form">
+        <form action="login.php" method="post" onsubmit="return valid()">
+            <span id="n1" style="color:red; font-size:12px;"></span><br>
+
+            <input id="email" type="email" name="email" placeholder="Email Address"><br><br>
+            <span id="n5" style="color:red;font-size:12px;"></span><br>
+
+            <input id="pass" type="password" name="pwd" placeholder="Password" /><br><br>
+            <span id="n2" style="color:red;font-size:12px;"></span><br>
+
+            <input id="btn" type="submit" name="btw" value="Login" style="width: 50%;" /><br><br>
+            <a href="#" id="forget" style="color: rgb(18, 165, 165);">Forget Password</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="sign-up.html" id="create" style="color: rgb(19, 165, 165);">Create Account</a>
+        </form>
+    </div>
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <div class="down" style=" color: black; padding:40px; text-align:center;">
+        <hr>
+        <div class="social-icons">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/your_number" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <p> &copy; 2025 Website. All rights reserved.&nbsp;&nbsp;|&nbsp;&nbsp;Privacy Policy</p>
+        <hr />
+    </div>
+
+
+</body>
+
+</html>

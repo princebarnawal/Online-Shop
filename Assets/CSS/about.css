@@ -13,8 +13,9 @@
     background-color: red;
     margin-left: -40px;
 }
+
 #prashant:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
     transition: transform 0.2s ease-in-out;
 }
 
@@ -28,8 +29,9 @@
     background-color: red;
     margin-left: 40px;
 }
+
 #prince:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
     transition: transform 0.2s ease-in-out;
 }
 
@@ -43,8 +45,9 @@
     background-color: red;
     margin-left: 100px;
 }
+
 #pritika:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
     transition: transform 0.2s ease-in-out;
 }
 
@@ -58,8 +61,9 @@
     background-color: red;
     margin-left: 190px;
 }
+
 #prakriti:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
     transition: transform 0.2s ease-in-out;
 }
 
@@ -143,6 +147,63 @@
     text-align: justify;
     font-size: 25px;
     margin-right: 10%;
+}
+
+
+
+
+                                /*for make blur*/
+
+#prashant {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.Team_image:hover> :not(:hover) {
+    opacity: 0.3;
+}
+
+#prashant:hover {
+    transform: scale(1.1);
+}
+
+#prince {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.Team_image:hover> :not(:hover) {
+    opacity: 0.3;
+}
+
+#prince:hover {
+    transform: scale(1.1);
+}
+
+#pritika {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.Team_image:hover> :not(:hover) {
+    opacity: 0.3;
+}
+
+#pritika:hover {
+    transform: scale(1.1);
+}
+
+#prakriti {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.Team_image:hover> :not(:hover) {
+    opacity: 0.3;
+}
+
+#prakriti:hover {
+    transform: scale(1.1);
 }
 
 
