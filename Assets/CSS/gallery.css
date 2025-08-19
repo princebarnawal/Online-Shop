@@ -70,6 +70,7 @@
 #image16{
     height: 200px;
     width: 220px;
+    border-radius: 10px;
 }
 
 
@@ -95,7 +96,7 @@
     border: 1px solid black;
     width: 25%;
     background-color: rgb(145, 123, 150);
-    padding: 20 px;
+    padding: 20 gitipx;
     border-radius: 10;
 
 }
