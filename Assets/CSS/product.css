@@ -24,6 +24,9 @@
     background-color: rgba(37, 39, 39, 0.379);
     box-shadow: 4px 8px 10px #0d0d0e;
     padding: 20px 20px 2px 20px;
+    border-radius: 20px;
+    text-align: center;
+
 }
 
 .item:hover {
@@ -31,27 +34,33 @@
     transition: transform 0.5s ease-in-out;
 }
 
-
-
 .item>img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+
+}
+
+
+ /* .item>img {
     width: 200px;
     height: 180px;
     object-fit: cover;
     border-radius: 5px;
-}
+}  */
 
 
-.item p {
+/* .item p {
     text-align: center;
     margin-top: 10px;
     font-weight: bold;
     color: white;
-}
+} */
 
 #search {
     border: #0d0d0e;
     border-radius: 40px;
-    margin-left: 150px;
+    margin-left: -25px;
     padding: 6.5px;
 }
 

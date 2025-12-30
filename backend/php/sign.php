@@ -17,7 +17,7 @@ $con=mysqli_connect('localhost','root','') or die('connection error');
      $pwd=$_POST['pwd'];
      $insert="insert into user values('$name','$email','$pwd')";
      mysqli_query($con,$insert) or die('insertion failed');
-     echo 'data successfully inserted';
+     echo 'Sign-In successfully ';
  }
 
 ?>

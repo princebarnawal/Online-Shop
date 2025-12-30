@@ -11,7 +11,7 @@ session_start();
 			setcookie('email',$email,time()+60);
 			setcookie('pwd',$pwd,time()+60);
 			// echo "Login Successful";
-			echo 'Login Successful. <a href="home.html">Go to Home Page</a>';
+			echo 'Login Successful. <a href="../../frontend/home.html">Go to Home Page</a>';
 
 		}else{
 			echo "Password does not match";

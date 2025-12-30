@@ -49,22 +49,24 @@
             </div>
         </div>
 
-        <form class="buy-form">
+     <form action="../../backend/php/product.php" class="buy-form"  method="post" >
             <h3>Shipping Details</h3>
 
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <input type="text" placeholder="Enter Your Full Address" required>
-            <input type="tel" placeholder="Phone Number" required>
-            <select required>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email"  placeholder="Email Address" required>
+            <input type="text" name="address" placeholder="Enter Your Full Address" required>
+            <input type="number" name="number" placeholder="Phone Number" required>
+            <input type="text" name="product" placeholder="Product Name" required>
+            <select name="payment" required>
                 <option >Select Payment Method</option>
                 <option >Credit Card</option>
                 <option >Cash on Delivery</option>
             </select>
 
-            <button type="submit">Buy Now</button>
+            <button type="submit" name="btw">Buy Now</button>
         </form>
     </div>
+
 
 
 
